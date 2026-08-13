@@ -1,0 +1,17 @@
+{
+  "name": "order-detective",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@cap-js/hana": "^3.0.2",
+    "@cap-js/mcp": "^1.4.1",
+    "@sap/cds": "^10"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^3.0.2"
+  },
+  "scripts": {
+    "start": "cds-serve"
+  },
+  "private": true
+}

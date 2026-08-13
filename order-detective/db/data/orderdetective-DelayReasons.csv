@@ -1,0 +1,3 @@
+ID,delivery_ID,reasonCode,reasonText,delayDays
+c6778f04-79c0-4ae1-9b00-78d870c197fd,d1091b8c-137e-406c-b2a2-11f3fdd1a864,CUSTOMS,Held at customs for HTS reclassification,6
+4a3420f9-91a3-40cf-aeaf-96c33e86f7b3,07d6988d-8ecb-46d5-8034-6040222fc366,CARRIER,Carrier capacity shortage on regional route,7
