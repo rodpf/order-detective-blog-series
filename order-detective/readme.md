@@ -3,7 +3,7 @@
 A self-contained CAP service — synthetic sales orders, deliveries, and delay
 reasons — exposed both as a normal OData API and as an MCP server, backed by
 HANA Cloud. Companion code for [Part 1 of a blog series on building a
-pro-code agent on SAP BTP](#) *(link once published)*.
+pro-code agent on SAP BTP](#)
 
 ## What's here
 
