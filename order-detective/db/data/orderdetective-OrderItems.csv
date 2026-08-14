@@ -1,0 +1,6 @@
+ID,order_ID,material,materialDesc,quantity,unit
+b8bb29c4-c3f6-4a05-8f38-08703af3895e,7685442e-27b7-4dae-ba27-1ee25124032b,MAT-1001,Steel bracket 40mm,500,EA
+154e62a1-e153-447e-923e-a9b0dc213873,2d3623a7-1932-43a2-9d66-7988b856f5eb,MAT-1002,Aluminum housing,120,EA
+53f36f20-7412-4124-abf9-5d403874035f,60a7932b-15ac-40e2-8283-4a98f3b4f88d,MAT-1003,Hydraulic valve,60,EA
+450197a9-3736-46cd-8e43-13827172a9da,52f25aae-2019-4e9b-ab6d-c616fcfd3453,MAT-1004,Sensor module,200,EA
+4ad7579f-9a61-4099-ba14-2c9493bc4f27,f23e76b3-cf98-40c3-944f-96a5557b807b,MAT-1005,Gasket seal kit,300,EA

@@ -1,0 +1,6 @@
+ID,orderNumber,customer,orderDate,status
+7685442e-27b7-4dae-ba27-1ee25124032b,4500001234,Contoso Manufacturing,2026-07-01,delayed
+2d3623a7-1932-43a2-9d66-7988b856f5eb,4500001235,Globex Industrial,2026-07-03,delivered
+60a7932b-15ac-40e2-8283-4a98f3b4f88d,4500001236,Initech Supplies,2026-07-05,delayed
+52f25aae-2019-4e9b-ab6d-c616fcfd3453,4500001237,Umbrella Logistics,2026-07-08,open
+f23e76b3-cf98-40c3-944f-96a5557b807b,4500001238,Wayne Materials,2026-07-10,delivered
