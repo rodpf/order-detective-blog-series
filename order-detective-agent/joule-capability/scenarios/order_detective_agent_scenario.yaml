@@ -1,0 +1,4 @@
+description: The Order Detective agent traces why a sales order is delayed and explains the reason, given an order number.
+target:
+  name: order_detective_agent_function
+  type: function

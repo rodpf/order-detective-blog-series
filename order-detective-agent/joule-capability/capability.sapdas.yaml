@@ -1,0 +1,12 @@
+schema_version: 3.27.0   # minimum version for agent (A2A) integration
+
+metadata:
+  namespace: joule.ext    # must be joule.ext - any other namespace is treated as SAP-owned and deploy fails
+  name: order_detective_agent_capability
+  version: 1.0.0
+  display_name: Order Detective Agent Capability
+  description: Capability containing the Order Detective agent
+
+system_aliases:
+  ORDER_DETECTIVE_AGENT:
+    destination: ORDER_DETECTIVE_AGENT   # must match the BTP destination name created for the agent's CF URL

@@ -1,0 +1,12 @@
+action_groups:
+  - actions:
+      - type: agent-request   # delegates the whole turn to the remote A2A agent
+        system_alias: ORDER_DETECTIVE_AGENT
+        agent_type: remote
+        result_variable: "apiResponse"
+      - type: message
+        message:
+          type: text
+          # Verified locally against the real A2A server response shape -
+          # see order-detective-agent/readme.md Phase 3 section
+          content: "<? apiResponse.body.artifacts[0].parts[0].text ?>"

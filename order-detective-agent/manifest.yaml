@@ -1,0 +1,22 @@
+applications:
+  - name: order-detective-agent
+    memory: 512M
+    disk_quota: 1G
+    buildpacks:
+      - nodejs_buildpack
+    env:
+      NODE_ENV: production
+      GENAI_HUB_MODEL: gpt-4o-mini
+      # GENAI_HUB_DEPLOYMENT_ID: leave unset to auto-resolve a deployment by
+      # model name (see agent.ts) - only set via cf set-env if you need to
+      # pin a specific deployment instead.
+    command: npm start
+    # Deliberately NOT set here - these depend on values that don't exist
+    # until after deployment (this app's own CF route, order-detective's
+    # separately-deployed route) or are live credentials that shouldn't be
+    # committed. Set all three via cf set-env after both apps are pushed:
+    #
+    # cf set-env order-detective-agent PUBLIC_URL <this app's CF route, with https://>
+    # cf set-env order-detective-agent MCP_SERVER_URL <order-detective's CF route>/mcp/order
+    # cf set-env order-detective-agent AICORE_SERVICE_KEY '<your service key JSON>'
+    # cf restage order-detective-agent
