@@ -10,27 +10,31 @@
     "build": "tsc",
     "typecheck": "tsc --noEmit",
     "start": "node dist/a2a-server.js",
-    "a2a-dev": "tsx src/a2a-server.ts"
+    "a2a-dev": "tsx src/a2a-server.ts",
+    "test:webhook": "tsx test/webhook-receiver.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "@a2a-js/sdk": "^1.0.1",
+    "@a2a-js/sdk": "^1.3.0",
     "@langchain/core": "^1.2.5",
     "@modelcontextprotocol/sdk": "^1.30.0",
     "@sap-ai-sdk/langchain": "^2.14.0",
     "@sap-ai-sdk/orchestration": "^2.14.0",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.2.0",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "langchain": "^1.5.5",
+    "typescript": "^7.0.2",
     "zod": "^4.4.3"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
     "@types/node": "^26.2.0",
-    "tsx": "^4.23.12",
+    "tsx": "^4.23.15",
     "typescript": "^7.0.2"
   }
 }
